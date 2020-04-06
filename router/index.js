@@ -35,7 +35,7 @@ export default function(){
             }
         ],
         scrollBehavior (to, from, savedPosition) {
-            // return 期望滚动到哪个的位置
+            // return 希望滚动到哪个的位置
             return {x: 0, y: 300}
         }
     })
