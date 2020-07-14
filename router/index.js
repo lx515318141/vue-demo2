@@ -48,7 +48,6 @@ export default function(){
         // 判断是否需要登录
         if (to.matched.some(item => item.meta.isLogin)){
             // true 需要登录
-
             // 需要结合token判断是否已经登录 token=true/false
             let token = "wocao";
             if(token){
